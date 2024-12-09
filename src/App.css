@@ -1,0 +1,197 @@
+body {
+  background: #FAFAFF;
+  font-family: "Work Sans";
+  margin: 0 0;
+}
+
+
+
+h2 {
+  font-family: 'Maitree';
+}
+
+h4 {
+  margin: 8px 0px;
+}
+
+.about-container {
+  margin: 40px 10%;
+}
+
+p {
+  margin: 0 0;
+  line-height: 150%;
+}
+
+li {
+  line-height: 150%;
+}
+
+.about-image {
+  width: 100%;
+  justify-self: center;
+}
+
+p#highlighted {
+  font-weight: 600;
+}
+
+.mission {
+  background-color: #D6D932;
+}
+
+.mission-container {
+  position: relative;
+  margin: 0 10%;
+  padding: 40px 0px;
+  z-index: 1;
+}
+
+
+
+.mission-title {
+  display: flex;
+  align-items: center;
+}
+
+.mission-title img {
+  width: 60px;
+}
+
+.impact-container {
+  margin: 60px 10%;
+}
+
+.activities {
+  justify-items: center;
+}
+
+.activity-item {
+  padding: 12px 12px;
+  max-width: 400px;
+}
+
+.activity-icon {
+  width: 40%;
+  justify-self: center;
+}
+
+.activity-texts {
+  text-align: center;
+}
+
+.projects-container {
+  margin: 60px 10%;
+}
+
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.main-h1-container {
+  text-align: center;
+}
+
+.calendar {
+  display: block;
+  justify-self: center;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.primary-button {
+  padding: 0.6rem 1.5rem;
+  background-color: #D6D932;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.primary-button:hover {
+  background-color: #E2E46F;
+  color: #3532D9;
+}
+
+
+
+h1#contact-h1 {
+  text-align: center;
+}
+
+.contact-wrap {
+  display: block;
+  justify-self: center;
+  padding: 2% 10%;
+}
+
+.contact-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-end; */
+}
+
+.contact-reason {
+  display: block;
+
+}
+
+@media screen and (min-width: 700px) {
+
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin: 60px 10%;
+
+  }
+
+  .activities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: center
+  }
+
+  #view-more-projects {
+    margin: 12px 0px;
+    justify-self: center;
+  }
+
+  .calendar {
+    max-width: 80%;
+  }
+
+
+
+
+  }
+
+
+@media screen and (min-width: 1000px) {
+  .project-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    align-items: center
+  }
+
+  .calendar {
+    max-width: 70%;
+  }
+
+
+}
